@@ -67,7 +67,7 @@ public class MarketWatchPriceSpy extends Thread {
 			 whole.add(tempOut);
 			 System.out.println(tempOut);
 			try {
-				sleep(10000);  //sleep for 10 second
+				sleep(10000);  //sleep for 10 second (every 10 second, query once real time data from MarketWatch.com)
 			} catch(InterruptedException e){System.out.println("sleep also has problem?");}
 		}
 		
